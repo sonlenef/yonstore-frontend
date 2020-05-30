@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  yonstore-frontend:
+    container_name: yonstore-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '80:80'
+    environment:
+      - NODE_ENV=development
