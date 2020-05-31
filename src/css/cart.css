@@ -1,0 +1,160 @@
+.cart {
+    font-family: 'Itim', cursive;
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    position: fixed;
+}
+
+@media only screen and (min-width: 768px) {
+    .cart {
+        height: 100%;
+        width: 80px;
+    }
+    
+    .cart-anim {
+        width: 80px;
+        animation-name: hide-cart;
+        animation-duration: 1s;
+    }
+    
+    .cart-button {
+        width: 80px;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        display:table-column;
+        left: 0;
+        position: absolute;
+    }
+    
+    .cart-icon {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+    
+    .cart-content {
+        width: 50%;
+        height: 100%;
+        right: -50%;
+        position: fixed;
+        background-color: white;
+    }
+    
+    .cart-content-anim {
+        animation-name: hide-cart-content;
+        animation-duration: 1s;
+        right: -50%;
+    }
+    
+    .cart-show {
+        animation-name: show-cart;
+        animation-duration: 1s;
+        width: 50%;
+    }
+    
+    .cart-show .cart-content {
+        animation-name: show-cart-content;
+        animation-duration: 1s;
+        right: 0;
+    }
+    
+    @keyframes show-cart {
+      from {width: 80px;}
+      to {width: 50%;}
+    }
+    
+    @keyframes hide-cart {
+      from {width: 50%;}
+      to {width: 80px;}
+    }
+    
+    @keyframes show-cart-content {
+        from {right: -50%;}
+        to {right: 0;}
+    }
+    
+    @keyframes hide-cart-content {
+        from {right: 0;}
+        to {right: -50%;}
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cart {
+        height: 50px;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    .cart-anim {
+        height: 50px;
+        animation-name: hide-cart;
+        animation-duration: 1s;
+    }
+    
+    .cart-button {
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        top: 0;
+        position: absolute;
+    }
+    
+    .cart-icon {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+    
+    .cart-content {
+        height: 50%;
+        width: 100%;
+        bottom: -50%;
+        position: fixed;
+        background-color: white;
+    }
+    
+    .cart-content-anim {
+        animation-name: hide-cart-content;
+        animation-duration: 1s;
+        bottom: -50%;
+    }
+    
+    .cart-show {
+        animation-name: show-cart;
+        animation-duration: 1s;
+        bottom: 0;
+    }
+    
+    .cart-show .cart-content {
+        animation-name: show-cart-content;
+        animation-duration: 1s;
+        bottom: 0;
+    }
+    
+    @keyframes show-cart {
+      from {height: 50px;}
+      to {height: 50%;}
+    }
+    
+    @keyframes hide-cart {
+      from {height: 50%;}
+      to {height: 50px;}
+    }
+    
+    @keyframes show-cart-content {
+        from {bottom: -50%;}
+        to {bottom: 0;}
+    }
+    
+    @keyframes hide-cart-content {
+        from {bottom: 0;}
+        to {bottom: -50%;}
+    }
+}
