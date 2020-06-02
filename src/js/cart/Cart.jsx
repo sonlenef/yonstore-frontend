@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../css/cart.css';
-import cartIcon from '../icon/shopping-bag.svg';
+import '../../css/cart.css';
+import cartIcon from '../../icon/shopping-bag.svg';
 
 class Cart extends Component {
     constructor(props) {
@@ -32,4 +32,4 @@ class Cart extends Component {
     }
 }
 
-export default Cart;
+export {Cart};

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../css/menucontent.css'
+import '../../../css/menucontent.css'
 
 class MenuContent extends Component {
     render() {
@@ -18,4 +18,4 @@ class MenuContent extends Component {
     }
 }
 
-export default MenuContent;
+export {MenuContent};

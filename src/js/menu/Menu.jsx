@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../css/menu.css';
-import menuIcon from '../icon/align-center.svg';
-import MenuContent from './menu/MenuContent';
+import '../../css/menu.css';
+import menuIcon from '../../icon/align-center.svg';
+import {MenuContent} from './menucontent/index';
 
 class Menu extends Component {
     constructor(props) {
@@ -43,4 +43,4 @@ class Menu extends Component {
     }
 }
 
-export default Menu;
+export {Menu};
