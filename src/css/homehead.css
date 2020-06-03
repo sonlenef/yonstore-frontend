@@ -1,0 +1,74 @@
+.home-head {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.home-head .banner-left {
+    width: 50%;
+    height: 100%;
+    background-color: #74b9ff;
+    background-image: url("/images/h1.png");
+    background-size: 400px 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+
+.home-head .banner-right {
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+}
+
+.banner-right .banner-right-l1 {
+    width: 50%;
+    height: 50%;
+    background-color: #a29bfe;
+    background-image: url("/images/h2.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+
+.banner-right .banner-right-r1 {
+    width: 50%;
+    height: 50%;
+    background-color: #ffeaa7;
+    background-image: url("/images/h3.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 0;
+    position: absolute;
+}
+
+.banner-right .banner-right-l2 {
+    width: 50%;
+    height: 50%;
+    background-color: #dfe6e9;
+    background-image: url("/images/h4.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.banner-right .banner-right-r2 {
+    width: 50%;
+    height: 50%;
+    background-color: #fd79a8;
+    background-image: url("/images/h5.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
