@@ -42,10 +42,10 @@ class Menu extends Component {
                         <span>Social Network</span>
                     </div>
                     <ul className="social-icon">
-                        <li><img src={twitterIcon}></img></li>
-                        <li><img src={facebookIcon}></img></li>
-                        <li><img src={skypeIcon}></img></li>
-                        <li><img src={instagramIcon}></img></li>
+                        <li><img src={twitterIcon} alt="icon"/></li>
+                        <li><img src={facebookIcon} alt="icon"/></li>
+                        <li><img src={skypeIcon} alt="icon"/></li>
+                        <li><img src={instagramIcon} alt="icon"/></li>
                     </ul>
                 </div>
                 <div ref={this.menuContentRef} className="menu-content" id="menu-content" onClick={() => this.hanldClick(false)}>
