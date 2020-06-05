@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import '../../css/menu.css';
 import menuIcon from '../../icon/align-center.svg';
+import twitterIcon from '../../icon/twitter.svg';
+import instagramIcon from '../../icon/instagram.svg';
+import facebookIcon from '../../icon/facebook.svg';
+import skypeIcon from '../../icon/skype.svg';
 import {MenuContent} from './menucontent/index';
 
 class Menu extends Component {
@@ -34,15 +38,14 @@ class Menu extends Component {
                         <li><span>e</span></li>
                     </ul>
                     <img className="menu-icon" src={menuIcon} alt="menu"/>
-                    <ul className="social-title">
-                        <li><span>Social</span></li>
-                        <li><span>Network</span></li>
-                    </ul>
+                    <div className="social-title">
+                        <span>Social Network</span>
+                    </div>
                     <ul className="social-icon">
-                        <li><div></div></li>
-                        <li><div></div></li>
-                        <li><div></div></li>
-                        <li><div></div></li>
+                        <li><img src={twitterIcon}></img></li>
+                        <li><img src={facebookIcon}></img></li>
+                        <li><img src={skypeIcon}></img></li>
+                        <li><img src={instagramIcon}></img></li>
                     </ul>
                 </div>
                 <div ref={this.menuContentRef} className="menu-content" id="menu-content" onClick={() => this.hanldClick(false)}>
