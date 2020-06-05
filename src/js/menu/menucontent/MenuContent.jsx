@@ -18,10 +18,10 @@ class MenuContent extends Component {
                     <li>Contacts</li>
                 </ul>
                 <div className="social-icon">
-                    <div className="instagram-icon"><a href={"https://www.instagram.com/uih.it"} target="_blank"><img src={instagramIcon}/></a></div>
-                    <div className="skype-icon"><a href={"https://join.skype.com/VVQS926LRF1U"} target="_blank"><img src={skypeIcon}/></a></div>
-                    <div className="facebook-icon"><a href={"https://www.facebook.com/lesonnnn"} target="_blank"><img src={facebookIcon}/></a></div>
-                    <div className="twitter-icon"><a href={"https://www.facebook.com/lesonnnn"} target="_blank"><img src={twitterIcon}/></a></div>
+                    <div className="instagram-icon"><a href={"https://www.instagram.com/uih.it"} target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="icon"/></a></div>
+                    <div className="skype-icon"><a href={"https://join.skype.com/VVQS926LRF1U"} target="_blank" rel="noopener noreferrer"><img src={skypeIcon} alt="icon"/></a></div>
+                    <div className="facebook-icon"><a href={"https://www.facebook.com/lesonnnn"} target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt="icon"/></a></div>
+                    <div className="twitter-icon"><a href={"https://www.facebook.com/lesonnnn"} target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="icon"/></a></div>
                 </div>
             </div>
             
