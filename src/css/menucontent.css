@@ -1,8 +1,13 @@
+.menu-list .social-icon li a img{
+    width: 25px;
+    height: 25px;
+}
+
 @media only screen and (min-width: 768px) {
     .menu-list {
         top: 50%;
         left: 50%;
-        transform: translate(-100%, -100%);
+        transform: translate(-100%, -75%);
         position: absolute;
         cursor: pointer;
     }
@@ -13,7 +18,7 @@
         font-weight: bold;
     }
     
-    .menu-list ul {
+    .menu-list .menu-main {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -21,8 +26,45 @@
         font-size: 26px;
     }
     
-    .menu-list ul li:hover{
+    .menu-list .menu-main li:hover{
         color: #ff7979;
+    }
+
+    .menu-list .social-icon {
+        width: 200px;
+        margin: 0;
+        padding-right: 30px;
+        margin-top: 70px;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .instagram-icon {
+        width: 25%;
+        left: 0px;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .skype-icon {
+        width: 25%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .facebook-icon {
+        width: 25%;
+        left: 50%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .twitter-icon {
+        width: 25%;
+        left: 75%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon div a img{
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -33,17 +75,54 @@
     }
     .menu-list h1 {
         font-size: 40px;
+        margin-bottom: -10px;
     }
     
     .menu-list ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        margin-top: 20px;
+        margin-top: 15px;
         font-size: 26px;
     }
     
     .menu-list ul li:hover{
         color: #ff7979;
+    }
+
+    .menu-list .social-icon {
+        width: 100vw;
+        margin-top: 15px;
+        padding-right: 30px;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .instagram-icon {
+        width: 25%;
+        left: 18%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .skype-icon {
+        width: 25%;
+        left: 28%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .facebook-icon {
+        width: 25%;
+        left: 38%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon .twitter-icon {
+        width: 25%;
+        left: 48%;
+        position: absolute;
+    }
+
+    .menu-list .social-icon div a img{
+        width: 25px;
+        height: 25px;
     }
 }
