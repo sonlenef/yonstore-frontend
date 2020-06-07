@@ -37,7 +37,7 @@ class Menu extends Component {
                         <li><span>r</span></li>
                         <li><span>e</span></li>
                     </ul>
-                    <img className="menu-icon" src={menuIcon} alt="menu"/>
+                    <div className="menu-icon" style={{backgroundImage: 'url(' + menuIcon + ')'}}/>
                     <div className="social-title">
                         <span>Social Network</span>
                     </div>

@@ -12,10 +12,10 @@ class MenuContent extends Component {
             <div className="menu-list">
                 <h1>YonStore</h1>
                 <ul className="menu-main">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Store</li>
-                    <li>Contacts</li>
+                    <li><a href="#secHome">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a href="#secStore">Store</a></li>
+                    <li><a>Contacts</a></li>
                 </ul>
                 <div className="social-icon">
                     <div className="instagram-icon"><a href={"https://www.instagram.com/uih.it"} target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="icon"/></a></div>

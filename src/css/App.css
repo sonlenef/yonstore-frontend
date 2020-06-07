@@ -1,33 +1,33 @@
 .app {
   width: 100vw;
-  position: absolute;
 }
+
+/* ::-webkit-scrollbar { 
+  display: none; 
+} */
 
 @media only screen and (min-width: 768px) {
   .app-menu {
-    z-index: 1;
+    position: fixed;
   }
   .app-content {
-    z-index: 0;
-    width:         calc(100% - 160px);
-    width:    -moz-calc(100% - 160px);
-    width: -webkit-calc(100% - 160px);
+    width: calc(100% - 160px);
     margin-left: 80px;
     position: absolute;
   }
   .app-cart {
-    z-index: 1;
+    position: fixed;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .app-menu {
-    z-index: 1;
+    position: fixed;
   }
   .app-content {
-    z-index: 0;
+    position: absolute;
   }
   .app-cart {
-    z-index: 1;
+    position: fixed;
   }
 }
