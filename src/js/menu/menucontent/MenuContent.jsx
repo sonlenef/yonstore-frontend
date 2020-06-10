@@ -12,7 +12,7 @@ class MenuContent extends Component {
             <div className="menu-list">
                 <h1>YonStore</h1>
                 <ul className="menu-main">
-                    <li><a href="#secHome">Home</a></li>
+                    <li><a href="#secHead">Home</a></li>
                     <li><a>About</a></li>
                     <li><a href="#secStore">Store</a></li>
                     <li><a>Contacts</a></li>
