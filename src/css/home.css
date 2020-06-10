@@ -6,14 +6,24 @@
 
 .home section {
     width: 100%;
-    height: 100vh;
     display: flex;
+    position: relative;
+}
+
+.home #secHead {
+    height: 100vh;
+    min-height: 500px;
 }
 
 .home #secHome {
     height: 100vh;
+    min-height: 500px; 
+    width: calc(100% - 160px);
+    position: fixed;
 }
 
 .home #secStore {
     height: 200vh;
+    min-height: 1000px;
+    background-color: white;
 }
