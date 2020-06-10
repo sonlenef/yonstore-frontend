@@ -2,7 +2,7 @@ FROM node:10-alpine as builder
 
 # install and cache app dependencies
 COPY package.json package-lock.json ./
-RUN npm install && mkdir /yonstore-frontend && mv ./node_modules ./yonstore-frontend
+RUN npm install && mkdir /yonstore-frontend && mv ./node_modules ./yonstore-frontend && npm install jquery
 
 WORKDIR /yonstore-frontend
 
